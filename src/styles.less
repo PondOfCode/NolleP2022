@@ -24,6 +24,7 @@
     --cphCardRight: linear-gradient(45deg, #000, #4c4c4c);
     --cphCardBack:  linear-gradient(45deg, #000, #262626);
     --cphCardLeft:  linear-gradient(45deg, #000, #262626);
+    --bs-primary-rgb: rgb(55, 173, 227) !important;
 }
 
 body {
@@ -67,10 +68,17 @@ body {
         width: calc(100% + 50px);
     }
 }
-/*.btn-primary{
+.btn-primary{
     background-color: rgba(55, 173, 227, .85) !important;
+    border-color: rgba(55, 173, 227, .85) !important;
+}
+.btn-outline-primary{
+    border-color: rgba(55, 173, 227, .85) !important;
+    color: rgba(55, 173, 227, .85) !important;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle, .btn-outline-primary:hover, .btn-outline-primary:focus{
+    background-color: rgba(55, 173, 227, .85) !important;
+    border-color: rgba(55, 173, 227, .85) !important;
     color: white !important;
-}*/
-btn-outline-primary{
-     background-color: rgba(55, 173, 227, .85) !important;
+    box-shadow: none !important;
 }
