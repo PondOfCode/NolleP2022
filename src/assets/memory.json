@@ -1,5 +1,7 @@
 [
-    
+    {
+        "closed": true
+    },
     {
         "phosare": "Phösare Bubbles",
         "card": "assets/phmemory/Phnamn.png"
